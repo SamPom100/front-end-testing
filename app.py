@@ -12,4 +12,4 @@ def hello_world():
 
 if __name__ == "__main__":
     webbrowser.open_new('http://127.0.0.1:5002/')
-    app.run(port=5000, debug=True, use_reloader=False)
+    app.run(port=5002, debug=True, use_reloader=False)
