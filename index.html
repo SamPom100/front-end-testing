@@ -1,0 +1,59 @@
+<!-- https://v1.tailwindcss.com/course/setting-up-tailwind-and-postcss -->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="/tailwind.css">
+</head>
+<!-- Added a BG class to control the background of the page -->
+<body class="bg-gray-100">
+
+  <!-- Make class to handle the image and control padding 
+  px = horizontal padding
+  py = vertical padding
+  h = height
+  -->
+  <div class="py-5 px-10">
+    <img class="h-48 mx-auto" src="img/logo.png" alt="UniLogo">
+
+    <!-- Add second image with top margin and rounded corners
+      mt = margin top
+      rounded = add rounded borders
+      shadow = adds shadow
+    -->
+    <img class="mt-6 rounded-lg shadow-xl mx-auto" src="img/datasci.jpg" alt="DataSci">
+
+    <!-- Text with some top margin and size control 
+    mt = top margin
+    text = text size
+    grey = color
+    leading = line height
+    mx-auto = center the text
+-->
+    <h1 class="mt-12 text-4xl font-bold text-gray-900 leading-tight text-center">
+      Boston University's New Computing and Data Science Building.
+      <span class="text-red-600">
+        Open 2023.
+      </span>
+    </h1>
+
+    <p class="mt-8 text-2xl leading-tight text-gray-700 text-center"> 
+      Finally I'll be able to take CS classes in one place instead of running all over campus.
+    </p>
+
+
+    <!-- Adding a clickable button -->
+    <div class="mt-16 flex justify-center">
+      <a href="https://www.bu.edu/data-sciences-center/" class="inline-block text-sm px-6 py-4 rounded-lg bg-red-600 text-white shadow-xl uppercase tracking-wider font-semibold">See More Information</a>
+    </div>
+
+
+
+
+  </div>
+
+</body>
+</html>
