@@ -8,7 +8,50 @@
   <title>Document</title>
   <link rel="stylesheet" href="/build/tailwind.css">
 </head>
-<body>
-  <h1 class="text-4xl text-blue-500 text-center">Hello world!</h1>
+<!-- Added a BG class to control the background of the page -->
+<body class="bg-gray-100">
+
+  <!-- Make class to handle the image and control padding 
+  px = horizontal padding
+  py = vertical padding
+  h = height
+  -->
+  <div class="py-5 px-10">
+    <img class="h-40" src="/img/logo.png" alt="UniLogo">
+
+    <!-- Add second image with top margin and rounded corners
+      mt = margin top
+      rounded = add rounded borders
+      shadow = adds shadow
+    -->
+    <img class="mt-5 rounded-lg shadow-xl" src="/img/datasci.jpg" alt="DataSci">
+
+    <!-- Text with some top margin and size control 
+    mt = top margin
+    text = text size
+    grey = color
+    leading = line height
+-->
+    <h1 class="mt-6 text-4xl font-bold text-gray-900 leading-tight">
+      Boston University's New Computing and Data Science Building.
+      <span class="text-red-600">
+        Open 2023.
+      </span>
+    </h1>
+
+    <p class="mt-5 text-2xl leading-tight text-gray-700"> 
+      Finally I'll be able to take CS classes in one place instead of running all over campus.
+    </p>
+
+
+    <!-- Adding a clickable button -->
+    <div class="mt-10">
+      <a href="https://www.bu.edu/data-sciences-center/" class="inline-block text-sm px-6 py-4 rounded-lg bg-red-600 text-white shadow-xl uppercase tracking-wider font-semibold">See More Information</a>
+    </div>
+
+
+
+  </div>
+
 </body>
 </html>
