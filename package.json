@@ -4,7 +4,8 @@
   "description": "npm init -y",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+    "build": "postcss css/tailwind.css -o public/tailwind.css",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/SamPom100/front-end-testing#readme",
   "dependencies": {
     "autoprefixer": "^9.6.1",
+    "gh-pages": "^4.0.0",
     "postcss-cli": "^6.1.2",
     "tailwindcss": "^1.0.4"
   }
