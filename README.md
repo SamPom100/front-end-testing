@@ -1,5 +1,12 @@
 # Front-end Testing
 
+
+## Preview (https://sampom100.github.io/front-end-testing/)
+<img width="780" alt="Screen Shot 2022-05-11 at 8 13 47 PM" src="https://user-images.githubusercontent.com/28206070/167967372-3e7aab19-025c-42ad-be79-3100a35c348c.png">
+
+
+
+
 ## Setup
 
 ```npm init -y```
